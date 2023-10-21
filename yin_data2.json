@@ -1,0 +1,37 @@
+{
+  "format": "mubujson1",
+  "numBuffers": 1,
+  "numTracks": 1,
+  "tracks": [
+    {
+      "name": "yin",
+      "mxCols": 4,
+      "mxRows": 1,
+      "hasVarRows": false,
+      "mxColNames": [
+        "Frequency",
+        "Energy",
+        "Periodicity",
+        "AC1"
+      ],
+      "hasTimeTags": false,
+      "nonNumType": "none",
+      "maxSize": 7372,
+      "buffers": [
+        {
+          "maxSize": 7372,
+          "size": 0,
+          "sampleRate": 1.25,
+          "sampleOffset": 855.0,
+          "mxRows": 1,
+          "mxCols": 4,
+          "mxData": [],
+          "info": [
+            "gui",
+            "interface multiwave, thickness 1, colormode rainbow, autobounds 1"
+          ]
+        }
+      ]
+    }
+  ]
+}
