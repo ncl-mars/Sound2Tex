@@ -1,2 +1,3 @@
 tmp/
-audioin/*
+audio/*
+!audio/.gitkeep 
