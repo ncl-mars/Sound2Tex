@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 39.5, 308.0, 87.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"externalfiles" : 1,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"resamplefiles" : 0,
+						"savegui" : 0,
+						"snaprate" : 1000.0,
+						"verbose" : 1
+					}
+,
+					"text" : "mubu #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -47,17 +70,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.5, 259.250938387310043, 117.0, 22.0 ],
 					"text" : "removetrack #3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-126",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 39.5, 290.166675090789795, 115.0, 22.0 ],
-					"text" : "sv #1 tomubu"
 				}
 
 			}
@@ -94,17 +106,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.0, 259.250938387310043, 117.0, 22.0 ],
 					"text" : "removetrack #2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-115",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 290.166675090789795, 115.0, 22.0 ],
-					"text" : "sv #1 tomubu"
 				}
 
 			}
@@ -174,7 +175,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -195,7 +196,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-126", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 

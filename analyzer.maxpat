@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1962.0, -219.0, 884.0, 1073.0 ],
+		"rect" : [ 175.0, 152.0, 854.0, 585.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,31 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 621.119415276735253, 20.68038657466127, 198.0, 20.0 ],
-					"text" : "DATA CONTAINER OPERATOR",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hidden" : 1,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.55243652944182, -21.31961342533873, 113.0, 22.0 ],
-					"text" : "rv analyzer toimubu"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "analyzer", "fftproc" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -88,19 +63,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 949.0, 777.0, 200.767241010826069, 242.029412031173706 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 641.061225529441799, 334.730112493038177, 200.767241010826069, 242.029412031173706 ],
-					"rounded" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "analyzer", "yinproc" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -119,6 +81,31 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 6.621989159053783, 319.730112493038177, 199.450553297996521, 242.029412031173706 ],
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 621.119415276735253, 20.68038657466127, 198.0, 20.0 ],
+					"text" : "DATA CONTAINER OPERATOR",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 14.55243652944182, -21.31961342533873, 113.0, 22.0 ],
+					"text" : "rv analyzer toimubu"
 				}
 
 			}
@@ -148,15 +135,16 @@
 , 			{
 				"box" : 				{
 					"attr" : "outputselection",
+					"fontsize" : 11.0,
 					"id" : "obj-111",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 621.119415276735253, 66.013269066810608, 198.0, 22.0 ],
+					"patching_rect" : [ 621.119415276735253, 66.013269066810608, 198.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 625.061225529441799, 102.013269066810608, 192.0, 22.0 ]
+					"presentation_rect" : [ 625.061225529441799, 102.013269066810608, 192.0, 21.0 ]
 				}
 
 			}

@@ -46,7 +46,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 69.589451967521654, 78.0, 30.0, 30.0 ]
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.589451967521654, 132.0, 111.0, 22.0 ],
+					"patching_rect" : [ 69.589451967521654, 132.0, 143.0, 22.0 ],
 					"text" : "getbufferslength #1"
 				}
 
@@ -116,9 +116,21 @@
 					"id" : "obj-445",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 130.383511455962889, 328.957575759494944, 81.0, 22.0 ],
-					"text" : "sv #1 tomubu"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 130.383511455962889, 328.957575759494944, 87.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"externalfiles" : 1,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"resamplefiles" : 0,
+						"savegui" : 0,
+						"snaprate" : 1000.0,
+						"verbose" : 1
+					}
+,
+					"text" : "mubu #1"
 				}
 
 			}
