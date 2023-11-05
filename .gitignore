@@ -1,3 +1,7 @@
 tmp/
+
 audio/*
 !audio/.gitkeep 
+
+textures/*
+!textures/.gitkeep
